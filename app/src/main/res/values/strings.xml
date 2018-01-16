@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Quest</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login/Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="need_permissions">You need to give this app permission to access the Internet.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_quiz_creation">Quiz Creation</string>
+    <string name="title_activity_new_question">Add New Question</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="user">User</string>
+    <string name="id">Id</string>
+    <string name="question">Question</string>
+    <string name="type">Type</string>
+    <string name="choice1">C1</string>
+    <string name="choice2">C2</string>
+    <string name="choice3">C3</string>
+    <string name="choice4">C4</string>
+    <string name="answer">Answer</string>
+    <string name="author">Author</string>
+    <string name="takequiz">Complete a Quest!</string>
+    <string name="profile">Home</string>
+    <string name="quizID">quizID</string>
+    <string name="quiz_name">Quiz Name</string>
+    <string name="new_quiz">New Quiz</string>
+    <string name="selected_quiz">Selected Quiz</string>
+    <string name="selected_quiz_owner">Selected Quiz</string>
+    <string name="score">Score</string>
+    <string name="go">Go!</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search quiz by quiz creator here...</string>
+    <string name="persistent_toast">You need to give this app permission to access your camera and storage if you want to continue using it.</string>
+
+</resources>

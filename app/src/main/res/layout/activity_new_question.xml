@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comgreedyai.github.quest.NewQuestionActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:id="@+id/description">
+        <EditText
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Enter question statement here"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:id="@+id/answers_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(A)"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Insert answer choice here"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190sp"
+        android:id="@+id/answers_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(B)"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Insert answer choice here"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230sp"
+        android:id="@+id/answers_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(C)"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Insert answer choice here"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="270sp"
+    android:id="@+id/answers_4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="(D)"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/answer_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:hint="Insert answer choice here"/>
+
+    </LinearLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350sp"
+        android:id="@+id/correct">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Correct Answer:"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/correct_answer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Type correct answer here:"/>
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttons"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/cancel"
+            android:onClick="cancel_onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="24sp"
+            android:padding="50px"
+            android:width="150dp"/>
+
+        <Button
+            android:id="@+id/save"
+            android:onClick="save_photo_onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textSize="24sp"
+            android:padding="50px"
+            android:width="150dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
